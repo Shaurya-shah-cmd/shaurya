@@ -2,7 +2,6 @@ import csv
 import sqlite3
 import pandas as pd
 
-# --- 1. Create CSV File for Address Book ---
 address_book = [
     ["Name", "Address", "Mobile", "Email"],
     ["John Doe", "123 Main Street", "9876543210", "john@example.com"],
@@ -16,7 +15,6 @@ with open("address_book.csv", "w", newline="") as file:
 
 print("✅ Address Book CSV created!")
 
-# --- 2. Weather Data Simulation ---
 weather_data = [
     ["City", "Temperature", "Humidity", "Condition"],
     ["Delhi", 35, 45, "Sunny"],
